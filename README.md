@@ -23,8 +23,8 @@ Installation
 -------------
 Just download the AutoTypeCustomFieldPicker.plgx file (see files above or [click here](https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/raw/master/AutoTypeCustomFieldPicker.plgx)), copy it to the KeePass application directory and restart KeePass.
 
-Limitions
----------
+Limitations
+------------
 - If you use `{PICKCUSTOMFIELD}` more than once in an Auto-Type sequence, the picker will only popup once und all placeholders will be replaced with the same value of the selected custom field (something like `{PICKCHARS:Password:ID=1}` is currently not implemented).
 
 ####Warning
