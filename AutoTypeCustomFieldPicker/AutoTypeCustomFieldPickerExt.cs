@@ -7,6 +7,7 @@ namespace AutoTypeCustomFieldPicker
     public sealed class AutoTypeCustomFieldPickerExt : Plugin
     {
         private const string PLACEHOLDER = "{PICKCUSTOMFIELD}";
+        private const string UPDATEURL = "https://raw.github.com/berrnd/KeePassAutoTypeCustomFieldPicker/master/AutoTypeCustomFieldPicker/UpdateInfo.txt";
 
         private IPluginHost PluginHost = null;
         private string CurrentPlaceholderResolved = string.Empty;
@@ -27,6 +28,11 @@ namespace AutoTypeCustomFieldPicker
         {
             AutoType.FilterSendPre -= this.AutoType_FilterSendPre;
             AutoType.SequenceQuery -= this.AutoType_SequenceQuery;
+        }
+
+        public override string UpdateUrl
+        {
+            get { return UPDATEURL; }
         }
 
         private void AutoType_FilterSendPre(object sender, AutoTypeEventArgs e)

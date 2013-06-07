@@ -21,7 +21,7 @@ The value of the picked custom field will be replaced in the Auto-Type sequence.
 
 Installation
 -------------
-Just download the KeePassAutoTypeCustomFieldPicker.plgx file, copy it to the KeePass application directory and restart KeePass.
+Just download the AutoTypeCustomFieldPicker.plgx file (see files above or [click here](https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/raw/master/AutoTypeCustomFieldPicker.plgx)), copy it to the KeePass application directory and restart KeePass.
 
 Limitions
 ---------
