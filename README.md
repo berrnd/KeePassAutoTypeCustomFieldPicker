@@ -34,3 +34,4 @@ But anyways, use it at your own risk (I use it too ;)).
 
 ####Licence
 GPL v3 or later
+![](http://piwik.bebcloud.de/piwik.php?idsite=12&rec=1&action_name=KeePassAutoTypeCustomFieldPicker)
