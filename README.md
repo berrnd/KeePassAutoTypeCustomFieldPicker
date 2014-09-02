@@ -11,8 +11,6 @@ In KeePass, you probably have stored these answers in custom fields.
 With the current `{PICKCHARS}` placeholder you can pick single chars out of a field.
 But for this use case you need a placeholder for a complete field value.
 
-To fix the time to when this will be implemented in KeePass itself, I have created this plugin.
-
 Usage
 -----
 Just use the new placeholder `{PICKCUSTOMFIELD}` in an Auto-Type sequence.
@@ -30,7 +28,7 @@ Limitations
 ####Warning
 This is a "quick & dirty" implementation.
 But it works and will not harm your KeePass database or something like that.
-But anyways, use it at your own risk (I use it too ;)).
+But anyways, use it at your own risk.
 
 ####Licence
 GPL v3 or later
