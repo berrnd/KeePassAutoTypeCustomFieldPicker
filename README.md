@@ -21,6 +21,19 @@ Installation
 -------------
 Just download the AutoTypeCustomFieldPicker.plgx file (see files above or [click here](https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/raw/master/AutoTypeCustomFieldPicker.plgx)), copy it to the KeePass application directory and restart KeePass.
 
+#### Chocolatey 📦 
+Or you can [use Chocolatey to install](https://community.chocolatey.org/packages/keepass-plugin-autotypecustomfieldpicker#install) it in a more automated manner:
+
+```
+choco install keepass-plugin-autotypecustomfieldpicker
+```
+
+To [upgrade KeePass Plugin AutoTypeCustomFieldPicker](https://community.chocolatey.org/packages/keepass-plugin-autotypecustomfieldpicker#upgrade) to the [latest release version](https://community.chocolatey.org/packages/keepass-plugin-autotypecustomfieldpicker#versionhistory) for enjoying the newest features, run the following command from the command line or from PowerShell:
+
+```
+choco upgrade keepass-plugin-autotypecustomfieldpicker
+```
+
 Limitations
 ------------
 - If you use `{PICKCUSTOMFIELD}` more than once in an Auto-Type sequence, the picker will only popup once und all placeholders will be replaced with the same value of the selected custom field (something like `{PICKCHARS:Password:ID=1}` is currently not implemented).
