@@ -1,3 +1,8 @@
+-----
+> [!CAUTION]
+> This is archived and no longer maintained.
+-----
+
 KeePassAutoTypeCustomFieldPicker
 ================================
 
@@ -25,10 +30,12 @@ Limitations
 ------------
 - If you use `{PICKCUSTOMFIELD}` more than once in an Auto-Type sequence, the picker will only popup once und all placeholders will be replaced with the same value of the selected custom field (something like `{PICKCHARS:Password:ID=1}` is currently not implemented).
 
-####Warning
+Warning
+------------
 This is a "quick & dirty" implementation.
 But it works and will not harm your KeePass database or something like that.
 But anyways, use it at your own risk.
 
-####Licence
+Licence
+------------
 GPL v3 or later
